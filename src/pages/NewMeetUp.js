@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import NewMeetupForm from "../components/meetups/NewMeetupForm";
 function NewMeetUpPage() {
 
-  const history = useHistory(); //manipulate the borwser histiry
+  const history = useHistory(); //manipulate the borwser history
 
 
   function addMeetupHandler(meetupData){
